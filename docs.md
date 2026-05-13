@@ -1,7 +1,7 @@
 # preparation
 
 ```
-sudo pacman -S podman fuse-overlayfs crun
+sudo pacman -S podman fuse-overlayfs crun qemu-base
 ```
 
 # Configuration

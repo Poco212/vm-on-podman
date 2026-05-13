@@ -39,3 +39,10 @@ nvim ~/.config/containers/containers.conf
 [engine]
 helper_binaries_dir = ["/usr/lib/podman", "/usr/libexec/podman"]
 ```
+# usage
+```
+podman machine init --cpus 2 --memory 2048 --disk-size 20
+```
+```
+podman machine start
+```

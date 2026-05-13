@@ -27,6 +27,12 @@ kernel.unprivileged_userns_clone=1
 sudo mv /usr/bin/gvproxy /usr/lib/podman/gvproxy 2>/dev/null || sudo cp $(which gvproxy) /usr/lib/podman/gvproxy
 ```
 ```
+sudo mkdir -p /usr/libexec/podman
+```
+```
+sudo ln -sf /usr/lib/virtiofsd /usr/libexec/podman/virtiofsd
+```
+```
 nvim ~/.config/containers/containers.conf
 ```
 ```

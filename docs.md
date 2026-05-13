@@ -1,7 +1,7 @@
 # preparation
 
 ```
-sudo pacman -S podman fuse-overlayfs
+sudo pacman -S podman fuse-overlayfs crun
 ```
 
 # Configuration

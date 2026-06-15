@@ -1,2 +1,2 @@
-# vm-on-podman
-running virtual machine on podman in archlinux hardened
+# vm-with btrfs
+running virtual machine with btrfs
